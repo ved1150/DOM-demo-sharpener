@@ -21,14 +21,28 @@ let addItems= document.getElementById("main");
 // addItems.style.fontWeight = "900"
 
 // GETELEMENTSBYCLASSNAME
-let item=document.getElementsByClassName("list-group-item");
+// let item=document.getElementsByClassName("list-group-item");
 
-item[2].style.background = "green";
+// item[2].style.background = "green";
 // item[0].style.fontWeight ="900";
 // item.style.color ="yellow";
 
-for(let i=0;i<item.length;i++){
-    item[i].style.color ="yellow";
-    item[i].style.fontWeight ="900";
+// for(let i=0;i<item.length;i++){
+//     item[i].style.backgroundColor ="yellow";
+//     item[i].style.fontWeight ="900";
+
+// }
+
+// GETELEMENTSBYTAGNAME
+let li=document.getElementsByTagName("li");
+
+li[2].style.background = "green";
+// item[0].style.fontWeight ="900";
+// item.style.color ="yellow";
+
+for(let i=0;i<li.length;i++){
+    li[i].style.backgroundColor ="yellow";
+    li[i].style.fontWeight ="900";
 
 }
+
