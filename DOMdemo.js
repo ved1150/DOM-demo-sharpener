@@ -15,8 +15,20 @@ let addItems= document.getElementById("main");
 // document.getElementById("main").innerHTML= "<h1>hello world </h1>"
 // document.getElementById("main").style.background ="yellow";
 
-header.style.borderBottom = "4px solid  blue";
+// header.style.borderBottom = "4px solid  blue";
 
-addItems.style.color = "green";
-addItems.style.fontWeight = "900"
-alert()
+// addItems.style.color = "green";
+// addItems.style.fontWeight = "900"
+
+// GETELEMENTSBYCLASSNAME
+let item=document.getElementsByClassName("list-group-item");
+
+item[2].style.background = "green";
+// item[0].style.fontWeight ="900";
+// item.style.color ="yellow";
+
+for(let i=0;i<item.length;i++){
+    item[i].style.color ="yellow";
+    item[i].style.fontWeight ="900";
+
+}
